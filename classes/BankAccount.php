@@ -24,4 +24,11 @@ class BankAccount implements IfaceBankAccount
     {
         //implement this method
     }
+
+    /**
+     * Withdraw amount
+     */
+    public function withdraw(Money $amount) 
+    {
+    } 
 }
