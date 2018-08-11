@@ -31,5 +31,6 @@ class BankAccount implements IfaceBankAccount
      */
     public function withdraw(Money $amount) 
     {
+        $this->balance -= $amount->value();
     } 
 }
